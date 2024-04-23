@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
+    <a href = "#main" class = "skip">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
@@ -19,15 +20,15 @@
         </nav>
         <h1>Training Diary &#129355;</h1>
     </header>
-    <main>
+    <main id="main">
         <section id="diaryEntries">
-            <h3>04/15/2024</h3>
+            <h2 id="except">04/15/2024</h2>
             <p>Technique that worked well: To stregthen the contol of armbar, when grabbing the opponent's arm, use both hhands to do an Americana-like grip, and make the upper hand perpendicular to the lower hand. The lower hand should be bent over a little bit toward the front.</p>
             <p>Technique to improve: Triangle Choke: I should use the leg that wraps the opponent's neck more often to build the frame.</p>
             <p>New Learnings: When the opponent smashes so hard for side control, make the arm on the same side of the opponent to overhook and lock it. Try to bridge toward the opponent, then suddenly bridge toward the opposite direction. There's a chance to roll them over. </p>
         </section>
     </main>
-    <section>
+    <section aria-label="BJJ diary">
     <h2 class="subtitle">Add New Diary Entry</h2>
     <form id="diaryForm">
         <label for="date">Date:</label>
@@ -40,7 +41,6 @@
 
         <label for="newLearnings">New Learnings:</label>
         <textarea id="newLearnings" name="newLearnings" required></textarea>
-
         <button type="submit">Add Entry</button>
     </form>
 </section>
