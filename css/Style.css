@@ -86,7 +86,7 @@ iframe.videos{
 #playlist{
     text-align: center;
     margin: 20px auto;
-    
+    border-radius: 12px;
 }
 
 footer {
