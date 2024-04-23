@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary - BJJ Training Diary</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="diary.html" class="current">My Diary</a></li>
+                <li><a href="dictionary.html">Dictionary</a></li>
+                <li><a href="videos.html">Video</a></li>
+            </ul>
+        </nav>
+        <h1>Training Diary &#129355;</h1>
+    </header>
+    <main>
+        <section id="diaryEntries">
+            <h3>04/15/2024</h3>
+            <p>Technique that worked well: To stregthen the contol of armbar, when grabbing the opponent's arm, use both hhands to do an Americana-like grip, and make the upper hand perpendicular to the lower hand. The lower hand should be bent over a little bit toward the front.</p>
+            <p>Technique to improve: Triangle Choke: I should use the leg that wraps the opponent's neck more often to build the frame.</p>
+            <p>New Learnings: When the opponent smashes so hard for side control, make the arm on the same side of the opponent to overhook and lock it. Try to bridge toward the opponent, then suddenly bridge toward the opposite direction. There's a chance to roll them over. </p>
+        </section>
+    </main>
+    <section>
+    <h2 class="subtitle">Add New Diary Entry</h2>
+    <form id="diaryForm">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="techniqueWell">Technique that worked well:</label>
+        <input type="text" id="techniqueWell" name="techniqueWell" required>
+
+        <label for="techniqueImprove">Technique to improve:</label>
+        <input type="text" id="techniqueImprove" name="techniqueImprove" required>
+
+        <label for="newLearnings">New Learnings:</label>
+        <textarea id="newLearnings" name="newLearnings" required></textarea>
+
+        <button type="submit">Add Entry</button>
+    </form>
+</section>
+
+    <footer>
+        <p>© 2024 by Shujun. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
